@@ -1,0 +1,71 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib64
+.idea
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+.pytest_cache/
+
+# Translations
+*.mo
+
+# Mr Developer
+*.bak
+.mr.developer.cfg
+.project
+.pydevproject
+/venv
+.DS_Store
+local_config.py
+unittest_config.py
+crawler_state.txt
+.svn/
+gunicorn.pid
+*.*~
+*.*#
+*.#*
+.swp
+.idea
+.vscode/
+
+# Tags
+TAGS
+
+# node_modules
+node_modules
+
+# webpack
+app/dist/*.html
+app/yarn-error.log
+app/webpack-lock.json
+static/compaign/yingzhan/yarn.lock
+
+# filestore
+filestore
+
+# certs
+certs/private
+ticket_request.log
+
+# unittest
+unittest_config.py
+
